@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Namutebi Esther"
+    android:textStyle="bold"
+    android:textSize="50"
+    />
+    <ImageView
+    android:layout_width="800px"
+    android:layout_height="900px"
+    android:src="@drawable/est"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hobbies;"
+    android:textStyle="bold"
+    android:textSize="45"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1.Playing Netball"
+    android:textSize="35"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2.Reading stories and novels"
+    android:textSize="35"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="3.Tiktok"
+    android:textSize="35"
+    />
+
+
+</LinearLayout>
